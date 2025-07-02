@@ -1,58 +1,55 @@
-# Öğrenci Performans Analizi Projesi
+# 🎓 Öğrenci Başarı Analizi - Makine Öğrenmesi Uygulaması
 
-Bu proje, öğrencilerin akademik performanslarını çeşitli faktörlere göre analiz eden bir makine öğrenimi çalışmasıdır.
+Bu proje, öğrenci performans verilerini analiz ederek çeşitli faktörlerin genel başarıya olan etkilerini değerlendirmektedir. Python ve scikit-learn kullanılarak hem regresyon hem de önem derecesi analizleri yapılmıştır.
 
-## Veri Seti
+## 📦 Kullanılan Kütüphaneler
 
-Veri seti şu sütunları içermektedir:
-- Cinsiyet
-- Ebeveyn Eğitim Seviyesi
-- Okul Yemekhanesi Kullanımı
-- Özel Ders Alma Durumu
-- Matematik Puanı
-- Okuma Puanı
-- Yazma Puanı
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- openpyxl
 
-## Kurulum
+## 📁 Veri Seti
 
-Gerekli kütüphaneleri yüklemek için:
+Excel dosyası: `Ogrenci_Performans.xlsx`  
+Sütunlar:  
+- Cinsiyet  
+- Ebeveyn Eğitim Seviyesi  
+- Okul Yemekhanesi  
+- Özel Ders  
+- Matematik, Okuma, Yazma Notları
+
+## 🚀 Başlangıç
+
+### 1. Gerekli kütüphaneleri yükleyin
+
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
-Kullanım
- ## Veri ön işleme:
+2. Python dosyasını çalıştırın
+bash
+Kopyala
+Düzenle
+python ogrenci_modelleme.py
+🔍 Yapılan Analizler
+✅ Özel Dersin Başarıya Etkisi
+Decision Tree ve Linear Regression kullanıldı.
 
-Kategorik değişkenler sayısallaştırılır
+MSE ve R² değerleri ile karşılaştırıldı.
 
-Genel başarı puanı hesaplanır
+📊 Faktör Önem Dereceleri
+Karar ağacı kullanılarak feature_importance çıkarıldı.
 
- ## Model eğitimi:
+Görsel olarak bar grafikte sunuldu.
 
-Karar Ağacı ve Lineer Regresyon modelleri
+📈 Korelasyon ve Regresyon
+Okuma notunun Yazma ve Matematik üzerindeki etkisi analiz edildi.
 
-Performans metrikleri: MSE ve R²
+r2_score ve corr() ile istatistiksel değerlendirme yapıldı.
 
- ## Analizler:
+📌 Sonuç
+Bu çalışma, öğrencinin başarısını etkileyen temel faktörleri hem görsel hem sayısal analizlerle ortaya koyar. Özel dersin etkisi, okuma becerilerinin diğer derslere katkısı gibi önemli çıkarımlar sunar.
 
-Özellik önem analizi
-
-Ders puanları arasındaki korelasyon
-
-## Sonuçlar
-Özel dersin genel başarıya etkisi:
-
-Karar Ağacı ve Lineer Regresyon sonuçları karşılaştırılır
-
- Faktörlerin önem dereceleri:
-
-Hangi faktörlerin başarıyı daha çok etkilediği görselleştirilir
-
-Dersler arası ilişkiler:
-
-Okuma-yazma ve okuma-matematik arasındaki korelasyonlar
-
-##Görselleştirmeler
-Proje, Seaborn ve Matplotlib kullanılarak çeşitli görselleştirmeler içermektedir:
-
-Özellik önem grafikleri
-
-Korelasyon analizleri
+👨‍💻 Geliştirici
+[Adınızı yazabilirsiniz]
