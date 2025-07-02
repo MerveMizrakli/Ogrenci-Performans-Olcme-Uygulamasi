@@ -1,4 +1,4 @@
- Öğrenci Performans Analizi Projesi
+# Öğrenci Performans Analizi Projesi
 
 Bu proje, öğrencilerin akademik performanslarını çeşitli faktörlere göre analiz eden bir makine öğrenimi çalışmasıdır.
 
@@ -19,30 +19,30 @@ Gerekli kütüphaneleri yüklemek için:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn openpyxl
 Kullanım
-Veri ön işleme:
+ ## Veri ön işleme:
 
 Kategorik değişkenler sayısallaştırılır
 
 Genel başarı puanı hesaplanır
 
-Model eğitimi:
+ ## Model eğitimi:
 
 Karar Ağacı ve Lineer Regresyon modelleri
 
 Performans metrikleri: MSE ve R²
 
-Analizler:
+ ## Analizler:
 
 Özellik önem analizi
 
 Ders puanları arasındaki korelasyon
 
-Sonuçlar
+## Sonuçlar
 Özel dersin genel başarıya etkisi:
 
 Karar Ağacı ve Lineer Regresyon sonuçları karşılaştırılır
 
-Faktörlerin önem dereceleri:
+ Faktörlerin önem dereceleri:
 
 Hangi faktörlerin başarıyı daha çok etkilediği görselleştirilir
 
@@ -50,7 +50,7 @@ Dersler arası ilişkiler:
 
 Okuma-yazma ve okuma-matematik arasındaki korelasyonlar
 
-Görselleştirmeler
+##Görselleştirmeler
 Proje, Seaborn ve Matplotlib kullanılarak çeşitli görselleştirmeler içermektedir:
 
 Özellik önem grafikleri
