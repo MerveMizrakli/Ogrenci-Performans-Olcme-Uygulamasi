@@ -52,4 +52,4 @@ r2_score ve corr() ile istatistiksel değerlendirme yapıldı.
 Bu çalışma, öğrencinin başarısını etkileyen temel faktörleri hem görsel hem sayısal analizlerle ortaya koyar. Özel dersin etkisi, okuma becerilerinin diğer derslere katkısı gibi önemli çıkarımlar sunar.
 
 👨‍💻 Geliştirici
-[Adınızı yazabilirsiniz]
+[Merve Mizrakli]
